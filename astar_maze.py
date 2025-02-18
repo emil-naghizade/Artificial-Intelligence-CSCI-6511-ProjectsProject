@@ -49,7 +49,7 @@ def astar_search(maze, start, end):
 # Example usage
 if __name__ == "__main__":
     if len(sys.argv) != 6:
-        print("Usage: python astar.py <maze_file> <start_x> <start_y> <end_x> <end_y>")
+        print("Usage: python astar_maze.py <maze_file> <start_x> <start_y> <end_x> <end_y>")
         sys.exit(1)
 
     maze_file = sys.argv[1]  # Get maze file path from command line
